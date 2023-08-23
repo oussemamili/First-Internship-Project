@@ -1,0 +1,30 @@
+.pop-up {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 12%;
+    min-width: 180px;
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+    background: black;
+    font-size: 13px;
+    z-index: 2;
+    transition: display 0.5s;
+}
+
+.pop-up.hidden {
+    display: none;
+}
+
+.pop-up p {
+    flex-basis: 80%;
+    min-width: 160px;
+}
+
+.pop-up svg {
+    flex-basis: 10%;
+    vertical-align: middle;
+}

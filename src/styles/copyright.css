@@ -1,0 +1,34 @@
+.copyright {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background: var(--color-blue);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright p {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center;
+}
+
+.copyright p svg {
+  color: white;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .copyright {
+    min-width: 550px;
+  }
+
+  .copyright p {
+    font-size: 13px;
+  }
+}

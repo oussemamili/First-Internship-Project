@@ -1,0 +1,21 @@
+.hello {
+  display: flex;
+  justify-content: center;
+}
+
+.hello-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-blue);
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 60px;
+    padding: 10px 0;
+  }
+
+  .hello-div h1{
+    color: white;
+    font-size: 40px;
+  }

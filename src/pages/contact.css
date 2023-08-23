@@ -1,0 +1,36 @@
+.container {
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contact {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    padding: 0 15%;
+}
+
+
+@media screen and (max-width: 570px) {
+    .container {
+        min-width: 450px;
+        height: 100%;
+    }
+
+    .contact {
+        flex-direction: column;
+        height: 100%;
+        padding-left: 140px;
+    }
+
+    .contact-div {
+        padding-left: 0;
+    }
+
+    .form-div form>button {
+        margin-bottom: 30px;
+    }
+}

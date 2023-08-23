@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--color-white);
+  min-height: 100vh;
+}
+
+:root {
+  --color-blue: #234E70;
+  --color-white: #FBF8BE;
+  position: relative;
+  min-height: 100vh;
+}
+
+#btn {
+  text-decoration: none;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: var(--color-blue);
+  color: white;
+  box-shadow: 0 0 1rem var(--color-blue);
+  transition: .5s ease;
+}
+
+#btn:hover {
+  box-shadow: none;
+}

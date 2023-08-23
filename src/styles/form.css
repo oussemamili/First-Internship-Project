@@ -1,0 +1,44 @@
+.form-div {
+    flex-basis: 50%;
+    max-width: 500px;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.form-div form {
+    width: 100%;
+    display: inline-block;
+    margin: 50px 0;
+}
+
+.form-div form input,
+.form-div form textarea {
+    width: 80%;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 15px;
+    background: var(--color-blue);
+    color: white;
+}
+
+.form-div form input::placeholder,
+.form-div form textarea::placeholder {
+    color: lightgray;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 917px) {
+    .form-div {
+        flex-basis: 50%;
+        margin-top: 50px;
+    }
+
+    .form-div form input,
+    .form-div form textarea {
+        min-width: 200px;
+    }
+}
