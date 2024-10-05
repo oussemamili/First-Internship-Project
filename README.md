@@ -1,4 +1,4 @@
-# Time To Watch Website
+# Time To Watch
 
 • A website that showcases the world’s top-rated movies.
 
